@@ -129,7 +129,7 @@ Output Format: Return a list of candidate evaluation objects matching the predef
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash",
             contents=prompt,
             config=GenerateContentConfig(
                 response_mime_type="application/json",
