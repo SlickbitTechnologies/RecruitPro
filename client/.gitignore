@@ -1,0 +1,43 @@
+# Node dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+.angular/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.vite/
+
+# Coverage
+coverage/
+
+# Optional lock files (usually KEEP ONE)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

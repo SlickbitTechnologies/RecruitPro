@@ -1,0 +1,348 @@
+.candidates-root {
+  padding: 32px 24px;
+  /* background: #f7f8fd; */
+  min-height: 100vh;
+}
+.sidebar-divider {
+  margin:3% 0 !important;
+  border-color: #f0f1f6;
+}
+.candidates-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.candidates-title {
+  font-weight: bold;
+  margin-bottom: 2px;
+  text-align: left;
+}
+
+.candidates-subtitle {
+  color: #7a7a7a;
+}
+
+.candidates-header-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.export-btn {
+  border-radius: 8px !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+}
+
+.invite-btn {
+  background: linear-gradient(90deg, #6c47ff 0%, #6c8cff 100%) !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+}
+
+.candidates-controls {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.upload-btn {
+  border-radius: 8px !important;
+  text-transform: none !important;
+  font-weight: bold !important;
+  padding: 0.5% !important;
+  width: 70%;
+  color: black !important;
+  border: #d8d8d8 1px solid !important;
+}
+
+.candidate-select {
+  text-align: left;
+    width: 30%;
+
+}
+.save-can-btn {
+  background: linear-gradient(90deg, #6c47ff 0%, #6c8cff 100%) !important;
+  color: #fff !important;
+  border-radius: 8px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  width: 30%;
+}
+.filters-btn {
+  border-radius: 8px !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+}
+
+.candidates-count-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.candidates-count {
+  color: #7a7a7a;
+}
+
+.view-toggle-btn {
+  border-radius: 8px !important;
+  text-transform: none !important;
+  font-weight: bold !important;
+  margin-left: 10px;
+  margin-right: 25px !important;
+  min-width: 90px;
+  color: black !important;
+  border: #d8d8d8 1px solid !important;
+
+}
+
+.candidates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.candidate-card {
+  background: #fff;
+  border-radius: 16px !important;
+  box-shadow: 0 2px 8px rgba(108, 71, 255, 0.04);
+  padding: 1%;
+
+  border: #d8d8d8 1px solid;
+}
+
+.candidate-card-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px;
+  width: 90% !important;
+}
+
+.candidate-avatar {
+  width: 56px !important;
+  height: 56px !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  background: linear-gradient(90deg, #6c47ff 0%, #6c8cff 100%);
+}
+
+.candidate-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+  width: 90% !important;
+}
+
+.candidate-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.candidate-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.candidate-chip-new {
+  background: #e0e7ff !important;
+  color: #2563eb !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+}
+
+.candidate-chip-reviewed {
+  background: #fff7e0 !important;
+  color: #f59e42 !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+}
+
+.candidate-role {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.candidate-desc {
+  color: #7a7a7a;
+}
+
+.candidate-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  color: #7a7a7a;
+  font-size: 0.97rem;
+  margin: 4px 0;
+}
+
+.css-18jp67o-MuiNativeSelect-root-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 2% !important;
+}
+
+.candidate-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 6px 0;
+}
+
+.candidate-tag {
+  background: linear-gradient(90deg, #f5f7fa 0%, #e9ecf5 100%);
+  color: #222;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 999px;
+  padding: 8px 22px;
+  margin: 1px 1px 0 0;
+  box-shadow: 0 2px 8px rgba(80, 80, 180, 0.08);
+  border: none;
+  transition: box-shadow 0.18s, background 0.18s, transform 0.15s;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+}
+.candidate-tag:hover {
+  background: linear-gradient(90deg, #e0e7ff 0%, #f0f4ff 100%);
+  box-shadow: 0 4px 16px rgba(80, 80, 180, 0.14);
+  transform: translateY(-2px) scale(1.04);
+  /* cursor: pointer; */
+}
+
+.candidate-education {
+  color: #7a7a7a;
+  margin-top: 2px;
+}
+
+.candidate-score-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-width: 90px;
+  gap: 4px;
+}
+
+.candidate-score {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.candidate-score-label {
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+.candidate-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.upload-card {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(80, 80, 180, 0.12);
+  padding: 24px 32px;
+  margin: 36px 0 32px 0;
+  width: 100%;
+  max-width: 100%;
+}
+.upload-dropzone {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #f9faff;
+  border: 2px dashed #bdbfff;
+  border-radius: 16px;
+  padding: 22px 0;
+  cursor: pointer;
+  transition: box-shadow 0.2s, border-color 0.2s, transform 0.18s;
+  font-size: 1.2rem;
+  color: #222;
+  font-weight: 500;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(80, 80, 180, 0.06);
+}
+.upload-dropzone:hover {
+  box-shadow: 0 8px 24px rgba(80, 80, 180, 0.16);
+  border-color: #6c47ff;
+  transform: translateY(-2px) scale(1.02);
+}
+.upload-dropzone-icon {
+  font-size: 2.5rem !important;
+  margin-right: 18px;
+  color: #6c47ff;
+}
+.upload-dropzone-text {
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+.modern-submit-btn {
+  min-width: 260px;
+  padding: 22px 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #6c47ff 0%, #4f8cff 100%);
+  color: #fff;
+  font-size: 1.18rem;
+  font-weight: 700;
+  box-shadow: 0 4px 16px rgba(80, 80, 180, 0.14);
+  transition: background 0.4s cubic-bezier(.4,2,.6,1), box-shadow 0.2s, transform 0.18s, filter 0.2s;
+  text-transform: none;
+  margin-left: 16px;
+  border: none;
+  backdrop-filter: blur(4px);
+  position: relative;
+  overflow: hidden;
+}
+.modern-submit-btn:hover {
+  background: linear-gradient(270deg, #4f8cff 0%, #6c47ff 100%);
+  box-shadow: 0 8px 32px rgba(80, 80, 180, 0.22);
+  transform: translateY(-2px) scale(1.04);
+  filter: brightness(1.08) saturate(1.2);
+}
+.modern-submit-btn .MuiButton-endIcon {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .upload-card {
+    flex-direction: column;
+    gap: 18px;
+    padding: 18px 8px;
+  }
+  .modern-submit-btn {
+    min-width: 100%;
+    margin-left: 0;
+  }
+  .upload-dropzone {
+    width: 100%;
+    padding: 18px 0;
+  }
+}
+.no-candidates-box {
+  background: #f9faff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(80, 80, 180, 0.08);
+  margin: 8px auto 0 auto;
+  max-width: 480px;
+  padding: 48px 24px 40px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
