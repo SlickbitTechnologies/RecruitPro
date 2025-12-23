@@ -100,7 +100,7 @@ async def upload_multiple_jds(
             """
             try:
                 response = await client.aio.models.generate_content(
-                    model="gemini-2.0-flash",
+                    model="gemini-2.5-flash",
                     contents=[file_part, prompt],
                     config=GenerateContentConfig(
                         response_mime_type="application/json",
